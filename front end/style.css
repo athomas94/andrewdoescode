@@ -1,0 +1,41 @@
+/* Globals */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+nav, .navbar-links {
+    display: flex;
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+}
+
+.navbar-links {
+    list-style: none;
+    gap: 2rem;
+    font-size: 2rem;
+}
+
+#desktop-nav {
+    width: 100%
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+a:hover {
+    color: maroon;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+}
